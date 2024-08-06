@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "start",
+      "patterns": [
+        "Hi", "How are you", "Is anyone there?", "Hello", "Whats up", "Hey", "greetings", "Hola!", "Good morning", "Good afternoon", "Good evening"
+      ],
+      "responses": [
+        "Hello!", "Good to see you again!", "Hi there, how can I help?", "Hola!", "Hello! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "faq_return_policy",
+      "patterns": [
+        "What is the return policy?", "Can I return my order?", "How do I return a product?", "What are the conditions for a return?", "How long do I have to return an item?"
+      ],
+      "responses": [
+        "Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange.",
+        "You can return items within 30 days of purchase. Please ensure they are in their original condition."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya", "Take care", "Catch you later"
+      ],
+      "responses": [
+        "Sad to see you go :(", "Talk to you later", "Goodbye!", "See you next time!", "Take care! Have a great day."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?", "Can you explain software development?", "What does a programmer do?"
+      ],
+      "responses": [
+        "Programming, coding or software development is the process of telling a computer what tasks to perform in order to solve problems.",
+        "Programming involves writing code to create software that performs specific tasks or solves particular problems."
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "How do you feel?", "What is your mood?", "Are you okay?", "How are you feeling?", "What's your current status?"
+      ],
+      "responses": [
+        "I am fine, thanks for asking!", "I feel great!", "I am functioning as expected, thank you for asking."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old?", "How old are you?", "Tell me your age?", "age?", "What is your age?", "How many years old are you?"
+      ],
+      "responses": [
+        "My creator Matab Mohsen is 21.", "21 years.", "I don't have an age, but my creator is 21 years old."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?", "Name?", "Tell me your name?", "What should I call you?", "Your name?", "How should I address you?"
+      ],
+      "responses": [
+        "My name is Maty.", "You can call me Maty.", "I'm Maty.", "I go by Maty."
+      ]
+    },
+    {
+      "tag": "workinghours",
+      "patterns": [
+        "When are you open?", "What is your working time?", "Working hours?", "Open time?", "What time do you start?", "When do you close?"
+      ],
+      "responses": [
+        "We are open 24/7.",
+        "Our working hours are 24 hours a day, 7 days a week."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you", "Thanks", "I appreciate it", "Thanks a lot", "Many thanks", "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome! If you have any other questions, feel free to ask.",
+        "No problem! If you need anything else, just let me know."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?", "How's the weather today?", "Tell me the weather forecast", "Is it raining?", "What is the current weather?"
+      ],
+      "responses": [
+        "I can't check the weather, but you can use a weather app or website for the latest updates.",
+        "Unfortunately, I don't have access to weather data. Please check a weather service for current conditions."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help", "Can you assist me?", "I need support", "Help me", "I have a problem", "Can you help with an issue?"
+      ],
+      "responses": [
+        "Sure, I’m here to help! Please describe your issue or question.",
+        "Of course! Let me know what you need assistance with."
+      ]
+    }
+  ]
+}
